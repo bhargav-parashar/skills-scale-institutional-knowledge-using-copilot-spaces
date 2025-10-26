@@ -1,16 +1,28 @@
-# Scale institutional knowledge using Copilot Spaces
+# OctoAcme Project Management Docs
 
-<img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
+Welcome to the OctoAcme Project Management documentation. This README provides a concise orientation to how OctoAcme plans, executes, and improves product work, and links to the detailed process documents stored in docs/.
 
-Hey bhargav-parashar!
+OctoAcme follows a lightweight, stage-gated lifecycle that moves work from initiation through planning, execution, release, and retrospective. Initiation validates the business need with a Project One-pager that captures problem, goals, success metrics, stakeholders, and a go/no‑go decision. Planning turns approved initiatives into a prioritized backlog, estimates scope, defines the Definition of Done, identifies dependencies and risks, and produces a release timeline and milestones. Execution uses a project board and a standard workflow (Backlog → Ready → In Progress → In Review → QA → Done) and emphasizes small, reviewable pull requests with CI validation and clear acceptance criteria.
 
-Mona here. I'm done preparing your exercise. Hope you enjoy! 💚
+Roles and responsibilities are explicit to reduce ambiguity: Project Manager (coordinates delivery, risks, and communications), Product Manager (defines outcomes and priorities), Developers (build and test), QA (validate acceptance), and Stakeholders (approve and provide inputs). Communication is rhythm-driven — daily standups for blockers, weekly delivery syncs and PM–PdM alignment, monthly stakeholder updates, and templated weekly status and incident messages. Escalation paths are defined (team → PM → Product Lead → Sponsor) and the project README or release docs serve as the single source of truth.
 
-Remember, it's self-paced so feel free to take a break! ☕️
+Quality assurance and release discipline are enforced through automated testing and CI checks (unit, integration, security scans), end-to-end smoke tests for critical flows, and manual QA where needed. Pull requests should be small, include acceptance criteria, pass CI/linting, and receive at least one approval before merge. Releases require passing CI and security checks, drafted release notes, a rollback/mitigation plan, and pre/post-deploy smoke tests. Retrospectives and incident post-mortems drive continuous improvement, with action items tracked back into the backlog and the risk register.
 
-[![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/bhargav-parashar/skills-scale-institutional-knowledge-using-copilot-spaces/issues/1)
+Process documentation:
+- docs/octoacme-project-management-overview.md
+- docs/octoacme-project-initiation.md
+- docs/octoacme-project-planning.md
+- docs/octoacme-execution-and-tracking.md
+- docs/octoacme-risks-and-communication.md
+- docs/octoacme-release-and-deployment.md
+- docs/octoacme-retrospective-and-continuous-improvement.md
+- docs/octoacme-roles-and-personas.md
 
----
+Acceptance checklist:
+- [ ] Content aligns with existing process docs
+- [ ] README added to docs/ and improves discoverability
+- [ ] README linked from project or repo-level docs (optional)
 
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
+Notes:
+- Keep this file updated as processes evolve.
+- Tell me if you want additional quick links (templates, checklists) or a different filename.
